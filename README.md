@@ -21,7 +21,7 @@ Sometimes you might want to manually control the pitch or roll for a maneuver, s
 
 - W/S: Pitch up/down
 - A/D: Roll left/right
-- C: Enable free look
+- C: Enable/disable free look
 
 # Usage
 The core of this project is the `MouseFlightController` component and the `MouseFlightRig` prefab.
@@ -70,6 +70,8 @@ If you'd like to add camera motion, such as the camera moving back when the airc
 Transform of the camera itself. Only used as reference for rotating the MouseAim transform relative to the screen.
 
 # Changelog
+
+### forked
 
 ### 1.3 (May 14 2019)
 - Fixed bug where demo plane Roll property reported pitch instead of roll.
